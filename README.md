@@ -17,14 +17,18 @@ End the program
 ## Program:
 ```
 
+
 #Program to find the rank of a matrix.
 #Developed by: AMALJOSH MAADHAV J
 #RegisterNumber:212223230012
+
 
 import numpy as np
 A =  [[5,3,-10],[2,2,-3],[-3,1,5]]
 B = np.linalg.matrix_rank(A)
 print(B)
+
+
 
 
 
